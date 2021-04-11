@@ -14,7 +14,7 @@ This tutorial will demonstrate how to use [`tye run`](/docs/reference/commandlin
 1. Create a frontend project:
 
     ```text
-    dotnet new razor -n frontend
+    dotnet new razor -n frontend -f net5.0
     ```
 
 1. Run this new project with `tye` command line:
@@ -39,7 +39,7 @@ This tutorial will demonstrate how to use [`tye run`](/docs/reference/commandlin
 1. If you haven't already, stop the existing `tye run` command using `Ctrl + C`. Create a backend API that the frontend will call inside of the `microservices/` folder.
 
     ```text
-    dotnet new webapi -n backend
+    dotnet new webapi -n backend -f net5.0
     ```
 
 1. Create a solution file and add both projects
